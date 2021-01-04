@@ -19,4 +19,6 @@ def main():
       else:
         print(0)
 
+  num_of_groups = len(tree.groups())
+
 main()
