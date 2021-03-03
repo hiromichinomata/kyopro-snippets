@@ -53,3 +53,17 @@ for i in product('AB', 'CD', repeat=2):
 # ('B', 'D', 'A', 'D')
 # ('B', 'D', 'B', 'C')
 # ('B', 'D', 'B', 'D')
+
+print('')
+
+for i in product([True, False], repeat=3):
+  print(i)
+
+# (True, True, True)
+# (True, True, False)
+# (True, False, True)
+# (True, False, False)
+# (False, True, True)
+# (False, True, False)
+# (False, False, True)
+# (False, False, False)
