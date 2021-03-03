@@ -22,3 +22,10 @@ for i in permutations(l, 2):
 # (1, 2)
 # (2, 0)
 # (2, 1)
+
+print('---')
+
+for i in permutations(l, 5):
+  print(i)
+
+# Blank for i > len(l)
